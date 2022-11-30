@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PANDA</title>
-    <!-- favicon -->
+    <!------------------- favicon ------------------->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <!-- bootstrap stylesheet -->
+    <!------------------- bootstrap stylesheet ------------------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- external css -->
+    <!------------------- external css ------------------->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <!-- navigation -->
-        <nav class="navbar navbar-expand-lg panda-nav-bg mb-5">
+        <!------------------- navigation ------------------->
+        <nav class="navbar navbar-expand-lg panda-nav-bg mb-3">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Panda">
@@ -47,8 +47,8 @@
             </div>
         </nav>
 
-        <!-- image slides -->
-        <section class="container mb-3">
+        <!------------------- image slides ------------------->
+        <section class="container my-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner rounded">
                   <div class="carousel-item active panda-slides-bg">
@@ -58,7 +58,7 @@
                             <p>An impressive second act, the classic Major kicks up its performance a few notches. Updated sound, looks and durability, as well as improved.
                             </p>
                             <h1 class="text-warning">$420</h1>
-                            <button class="btn btn-danger">Buy Now</button>
+                            <button class="btn text-white panda-btn">Buy Now</button>
                         </div>
                         <div class="col-lg-5">
                             <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -72,7 +72,7 @@
                             <p>Let us help you buy your next LED TV from Best Electronics in Bangladesh at the very best price. Check our huge collection of LED TVs from various global brands.
                             </p>
                             <h1 class="text-warning">$1200</h1>
-                            <button class="btn btn-danger">Buy Now</button>
+                            <button class="btn text-white panda-btn">Buy Now</button>
                         </div>
                         <div class="col-lg-5">
                             <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -86,7 +86,7 @@
                             <p>Experience the wireless xbox controller! Elevate your game with all new vbox wireless controller - Lunar Shift Special Edition.
                             </p>
                             <h1 class="text-warning">$835</h1>
-                            <button class="btn btn-danger">Buy Now</button>
+                            <button class="btn text-white panda-btn">Buy Now</button>
                         </div>
                         <div class="col-lg-5">
                             <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -105,11 +105,41 @@
               </div>
         </section>
     </header>
-    <main></main>
+
+    <main>
+        <!------------------- catagories ------------------->
+        <section class="my-5">
+            <div class="container overflow-hidden text-center">
+                <div class="row g-3">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="bg-warning p-3 rounded d-flex justify-content-between align-items-center">
+                        <h1 class="text-white">Watch</h1>
+                        <img src="images/categories/watch.png" alt="" width="100px">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="bg-success p-3 rounded d-flex justify-content-between align-items-center">
+                        <h1 class="text-white">Backpack</h1>
+                        <img src="images/categories/bag.png" alt="" width="100px">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="bg-primary p-3 rounded d-flex justify-content-between align-items-center">
+                        <h1 class="text-white">Shoes</h1>
+                        <img src="images/categories/shoes.png" alt="" width="100px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!------------------- shoes catalog ------------------->
+        <section></section>
+    </main>
     <footer></footer>
 
 
-    <!-- bootstrap script -->
+    <!------------------- bootstrap script ------------------->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
