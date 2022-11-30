@@ -30,13 +30,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -134,7 +134,7 @@
         </section>
 
         <!------------------- shoes catalog ------------------->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
           <h1>Shoes</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -142,7 +142,7 @@
                 <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Adidas Yeezy Boost 350</h4>
-                  <h5 class="card-subtitle">$375</h5>
+                  <h5 class="card-subtitle text-warning">$375</h5>
                   <p class="card-text">Yeezy 350 is the ultra-popular model from the creative collaboration of Kanye West and Adidas. The sneakers have been engineered for maximum comfort and supreme style.</p>
                 </div>
                 <div class="p-3">
@@ -155,7 +155,7 @@
                 <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Nike Air Zoom Pegasus 35</h4>
-                  <h5 class="card-subtitle">$240</h5>
+                  <h5 class="card-subtitle text-warning">$240</h5>
                   <p class="card-text">The Nike Air Zoom Pegasus 35 is built for runners at every level, whether you're a seasoned veteran or just starting out.</p>
                 </div>
                 <div class="p-3">
@@ -168,7 +168,7 @@
                 <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Nike Air Max</h4>
-                  <h5 class="card-subtitle">$480</h5>
+                  <h5 class="card-subtitle text-warning">$480</h5>
                   <p class="card-text">Inspired by the early-2000s look, the Nike Air Max Genome adds a fresh face to the Air Max house.</p>
                 </div>
                 <div class="p-3">
@@ -180,7 +180,7 @@
         </section>
 
         <!------------------- backpack catalog ------------------->
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
           <h1>Backpack</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -188,7 +188,7 @@
                 <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Soho Laptop Backpack</h4>
-                  <h5 class="card-subtitle">$79.99</h5>
+                  <h5 class="card-subtitle text-warning">$79.99</h5>
                   <p class="card-text">If you need a bag that lets you show off your style and can always keep up with your on-the-go lifestyle, the OGIO Soho women's Laptop Backpack is the bag for the job.</p>
                 </div>
                 <div class="p-3">
@@ -201,7 +201,7 @@
                 <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Burton Backpack</h4>
-                  <h5 class="card-subtitle">$54</h5>
+                  <h5 class="card-subtitle text-warning">$54</h5>
                   <p class="card-text">A skate-inspired pack with 1,000 uses. External straps for a deck or other bulky gear and mesh water bottle pockets on the side for easy access to hydration and other necessities.</p>
                 </div>
                 <div class="p-3">
@@ -214,7 +214,7 @@
                 <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Travel Backpack</h4>
-                  <h5 class="card-subtitle">$39.99</h5>
+                  <h5 class="card-subtitle text-warning">$39.99</h5>
                   <p class="card-text">There is a special waterproof rain cover hidden  at thre bottom of the backpack to avoid your backpack wet.</p>
                 </div>
                 <div class="p-3">
@@ -224,8 +224,27 @@
             </div>
           </div>
         </section>
+
+        <!------------------- conatact ------------------->
+        <section class="container panda-container-bg mb-5 rounded d-flex justify-content-center align-items-center" id="subscribe" style="height: 300px;">
+          <div>
+            <h1>Let's Stay In Touch</h1>
+            <p class="text-secondary">Get updates on sales, specials and more</p>
+            <form>
+              <div class="form-floating mb-2">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <button type="submit" class="btn panda-btn text-white">Submit</button>
+            </form>
+          </div>
+        </section>
     </main>
-    <footer></footer>
+
+    <footer class="text-center text-secondary">
+      <p><small>©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
 
     <!------------------- bootstrap script ------------------->
